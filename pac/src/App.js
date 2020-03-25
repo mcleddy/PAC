@@ -5,9 +5,9 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
-import Resume from './Components/Resume';
+import Calendar from './Components/Calendar';
 import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
+import Announcements from './Components/Announcements';
 import Portfolio from './Components/Portfolio';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
     this.state = {
       foo: 'bar',
-      resumeData: {}
+      calendarData: {}
     };
 
     ReactGA.initialize('UA-110570651-1');
@@ -24,13 +24,13 @@ class App extends Component {
 
   }
 
-  getResumeData(){
+  getCalendarData(){
     $.ajax({
-      url:'/resumeData.json',
+      url:'/calendarData.json',
       dataType:'json',
       cache: false,
       success: function(data){
-        this.setState({resumeData: data});
+        this.setState({calendarData: data});
       }.bind(this),
       error: function(xhr, status, err){
         console.log(err);
@@ -40,19 +40,19 @@ class App extends Component {
   }
 
   componentDidMount(){
-    this.getResumeData();
+    this.getCalendarData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.calendarData.main}/>
+        <About data={this.state.calendarData.main}/>
+        <Calendar data={this.state.calendarData.calendar}/>
+        <Portfolio data={this.state.calendarData.portfolio}/>
+        <Announcements data={this.state.calendarData.announcements}/>
+        <Contact data={this.state.calendarData.main}/>
+        <Footer data={this.state.calendarData.main}/>
       </div>
     );
   }

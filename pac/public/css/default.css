@@ -170,10 +170,14 @@ h1, h2, h3, h4, h5, h6 {
    float: left;
    width: 22%;
    margin: 1%;
+   color: #fff;
 }
 .officer1{
-   color: #7a7a7a;
+   color: #fff;
    margin-bottom: 10%;
+}
+.officerjob{
+   color: #7a7a7a;
 }
 .officer1pic{
    position: relative;
@@ -182,9 +186,18 @@ h1, h2, h3, h4, h5, h6 {
    border-radius: 100%;
 }
 .officerstitle{
-   text-align: center;
+ margin-left: 1%;
+
+}
+.announcementstitle{
+   color:#fff
 }
 
+.announcementTitle{
+   color: #ffff;
+   font-family: 'opensans-regular', sans-serif;
+   font-weight: bolder;
+}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
 h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
@@ -828,3 +841,11 @@ properly.
 
 
 
+iframe{
+   position: relative;
+   padding-top: 30px;
+   overflow: hidden;
+   height: 500px;
+   width: 100%;
+border: #fff 5px solid;
+}

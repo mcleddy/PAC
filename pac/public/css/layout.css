@@ -9,10 +9,10 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. Calendar Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. Announcements Section
    h. Contact Section
    i. Footer
 
@@ -232,51 +232,51 @@ ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. Calendar Section
 /* ------------------------------------------------------------------ */
 
-#resume {
-   background: #fff;
+#calendar {
+   background: #a0a0a0;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#calendar a, #calendar a:visited  { color: #11ABB0; }
+#calendar a:hover, #calendar a:focus { color: #313131; }
 
-#resume h1 {
+#calendar h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#calendar h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
-#resume h3 {
+#calendar h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#calendar .header-col { padding-top: 9px; }
+#calendar .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#resume .info {
+#calendar .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#calendar .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#calendar .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -641,11 +641,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Announcements
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#announcements {
+   background: #1F1F1F url(../images/announcements-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -655,19 +655,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#announcements .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#announcementss h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#tannouncements h1 span { display: none; }
+#announcements .header-col { padding-top: 9px; }
+#announcements .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -679,30 +679,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#announcements blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+#announcements blockquote:before { content: none; }
+#announcements blockquote p {
+   font-family: 'librebaskerville', serif;
    padding: 0;
-   font-size: 24px;
+   font-size: 20px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#announcements blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#announcements blockquote cite:before { content: "\2014 \0020"; }
+#announcements blockquote cite a,
+#announcements blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
@@ -831,6 +831,7 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   margin-top: 7%;
 }
 #contact .header-col { padding-top: 6px; }
 
