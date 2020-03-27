@@ -14,6 +14,7 @@ class Footer extends Component {
            <ul className="copyright">
              <li>P.A.C.</li>
               <li>&copy; Copyright 2020 Mary Leddy</li>
+              <li>U of A</li>
             </ul>
 
         </div>
