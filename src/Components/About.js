@@ -16,7 +16,7 @@ class About extends Component {
             <div className="row">
                <div className="twelve columns">
                   <div className="ourOfficers">
-                     <h2 className="officerstitle">Our Officers</h2>
+                     <h2 className="officerstitle">Our Current Officers</h2>
                      <div className="officers">
                         <div className="officer1section">
                            <h4 className="officer1">Amber Lubera</h4>
