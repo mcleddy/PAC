@@ -336,9 +336,13 @@ margin-right:8%;
 height:100px;
 }
 .itinerary{
-	margin-top:4rem;
-	          
+	margin-top:4rem;	          
 }
+
+.event{
+	margin-bottom: 10px;
+}
+
 #calendar p.lead {
 	font-family: opensans-light, monospace, sans-serif !important;
 	letter-spacing: 0.1em;

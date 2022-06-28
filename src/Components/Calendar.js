@@ -20,12 +20,12 @@ class Calendar extends Component {
                         <div className="four columns rsvpInclude itinerary">
                             <p className="lead">The Schedule</p>
                             <ul className="itinerarySchedule">
-                                <li>5:30 Arrival</li>
-                                <li>6:00 Ceremony</li>
-                                <li>6:30 Apetizers & Toasts</li>
-                                <li>7:00 Buffet & Dancing</li>
-                                <li>9:00 Cake</li>
-                                <li>10:00 Goodbyes</li>
+                                <li className="event">5:30 Arrival</li>
+                                <li className="event">6:00 Ceremony</li>
+                                <li className="event">6:30 Apetizers & Toasts</li>
+                                <li className="event">7:00 Buffet & Dancing</li>
+                                <li className="event">9:00 Cake</li>
+                                <li className="event">10:00 Goodbyes</li>
                             </ul></div>
                     </div>
                     <br /><br />
