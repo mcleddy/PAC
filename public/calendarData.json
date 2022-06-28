@@ -1,128 +1,81 @@
 {
-  "main": {
-    "name":"Tim Baker",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
-    },
-    "website": "http://www.timbakerdev.com",
-    "calendardownload":"http://timbakerdev.com",
-    "social":[
-      {
-        "name":"facebook",
-        "url":"http://facebook.com/tim.baker.906",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
-      },
-      {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"http://github.com/tbakerx",
-        "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
-      }
-    ]
-  },
- 
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Resource 1",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "Bar Tonique",
+        "category": "bar.png",
+        "image": "bar.jpg",
+        "url": "https://www.bartonique.com/"
       },
       {
-        "title":"Resource 2",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "Red's'",
+        "type": "(Chinese)",
+        "category": "food.png",
+        "image": "reds.jpg",
+        "url": "https://www.redschinese.com/"
       },
       {
-        "title":"Resource 3",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "Ba Chi Canteen",
+        "type": "(Vietnamese)",
+        "category": "food.png",
+        "image": "bachi.jpg",
+        "url": "https://www.facebook.com/bachicanteenla/"
       },
       {
-        "title":"Resource 4",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "Rum House",
+        "type": "(Caribbean)",
+        "category": "food.png",
+        "image": "rumhouse.jpg",
+        "url": "https://www.therumhouse.com/"
       },
       {
-        "title":"Resource 5",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "Superior Seafood & Oyster Bar",
+        "type": "(Seafood)",
+        "category": "food.png",
+        "image": "superior.jpg",
+        "url": "https://www.superiorseafoodnola.com/"
       },
       {
-        "title":"Resource 6",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "Rue De La Course",
+        "category": "coffee.png",
+        "image": "rue.jpeg",
+        "url": "http://www.ruedelacourse.com/home.html"
       },
       {
-        "title":"Resource 7",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
+        "title": "New Orleans Museum of Art",
+        "category": "destination.png",
+        "image": "noma.jpg",
+        "url": "https://noma.org/"
       },
       {
-        "title":"Resource 8",
-        "category":"This resource was written by dbcuebcuk and is about bfuqeborifubqeoifboiqubf1",
-        "image":"dummyportfolio.jpg",
-        "url":""
-      }
-    ]
-  },
-  "announcements":{
-    "announcements":[
-      {
-        "title":"Title",
-        "text":"t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'",
-        "user":"Mary Leddy"
+        "title": "Audubon Zoo",
+        "category": "destination.png",
+        "image": "zoo.jpg",
+        "url": "https://audubonnatureinstitute.org/"
       },
       {
-        "title":"Title",
-        "text":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,",
-        "user":"Meg Harvey"
+        "title": "International House Hotel",
+        "category": "hotel.png",
+        "image": "ihhotel.jpg",
+        "url": "https://www.ihhotel.com/?utm_source=google&utm_medium=gmb&utm_campaign=evergreen"
       },
       {
-        "title":"Title",
-        "text":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,",
-        "user":"Amber Lubera"
+        "title": "Omni Royal Hotel",
+        "category": "hotel.png",
+        "image": "omni.jpeg",
+        "url": "https://www.omnihotels.com/hotels/new-orleans-royal-orleans?utm_source=gmblisting&utm_medium=organic"
+      },
+      {
+        "title": "French Market",
+        "category": "destination.png",
+        "image": "market.jpg",
+        "url": "https://www.frenchmarket.org/farmers-market/"
+      },
+      {
+        "title": "Mardi Gras World",
+        "category": "destination.png",
+        "image": "mardigras.jpg",
+        "url": "http://www.mardigrasworld.com/"
       }
     ]
   }
