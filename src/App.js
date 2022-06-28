@@ -32,7 +32,7 @@ class App extends Component {
       success: function(data){
         this.setState({calendarData: data});
       }.bind(this),
-      error: function(xhr, status, err){post
+      error: function(xhr, status, err){
         console.log(err);
         alert(err);
       }
