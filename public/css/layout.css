@@ -698,7 +698,7 @@ float:left;
 	.RSVPHr{
 		width:8%;
 		height:2px;
-		margin-left:30%;
+		text-align: center;
 	}
 #contact .header-col {
 	font-family: Butler-UltraLight;
