@@ -2,50 +2,39 @@ import React, { Component } from 'react';
 
 class About extends Component {
    render() {
-
-
-      return (
-         <section id="about">
-            <div className="row">
-               <div className="twelve columns main-col">
-                  <h2>About Our wedding</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-<hr></hr>
-               </div>
-            </div>
-            <div className="row">
-               <div className="twelve columns">
-                  <div className="ourOfficers">
-                     <h2 className="officerstitle">Our Current Officers</h2>
-                     <div className="officers">
-                        <div className="officer1section">
-                           <h4 className="officer1">Amber Lubera</h4>
-                           <img className="officer1pic" src="https://linguistics.arizona.edu/sites/linguistics.arizona.edu/files/user_photo/picture-414-1535139531.jpg"></img>
-                           <h6 className="officerjob">President & Founder</h6>
-                        </div>
-                        <div className="officer1section">
-                           <h4 className="officer1">Amber Lubera</h4>
-                           <img className="officer1pic" src="https://linguistics.arizona.edu/sites/linguistics.arizona.edu/files/user_photo/picture-414-1535139531.jpg"></img>
-                           <h6 className="officerjob">President & Founder</h6>
-                        </div>
-                     </div>
-                     <div className="officer1section">
-                        <h4 className="officer1">Amber Lubera</h4>
-                        <img className="officer1pic" src="https://linguistics.arizona.edu/sites/linguistics.arizona.edu/files/user_photo/picture-414-1535139531.jpg"></img>
-                        <h6 className="officerjob">President & Founder</h6>
-                     </div>
-                     <div className="officer1section">
-                        <h4 className="officer1">Amber Lubera</h4>
-                        <img className="officer1pic" src="https://linguistics.arizona.edu/sites/linguistics.arizona.edu/files/user_photo/picture-414-1535139531.jpg"></img>
-                        <h6 className="officerjob">President & Founder</h6>
-                     </div>
-                  </div>
-               </div>
+        <section id="about">
+            <div className="six columns FirstHalf">
+                <h1 className="OurStoryHeader">Our Story</h1>
+                <hr className="OurStoryHr" />
+                <h4 className="OurStoryText">
+                    Meg and Mary knew they wanted to be together from their first conversation. Almost immediately on sitting down at the New Orleans coffee shop where they met, they were joking and laughing and had connected like they hadn't thought possible!
+                </h4>
+                <hr className="OurStoryTextHr" />
+                <h4 className="OurStoryText">
+                    Since then they've moved across the country together, adopted a kitten (Cordelia) to keep their grumpy middle aged cat (Freya) company and traveled to two countries and many different cities. Exploring and learning new things together is one of their favorite things in the world. However, even better than hiking a volcano* in Guatemala or going to museums in Vancouver has been getting to know the person each other is, was, and is becoming. Thank you for joining us in a celebration of their love!
+                </h4>
+                <h6 className="OurStoryText">
+                    *okay, Mary hiked it. Meg got a horse to carry her the rest of the way!
+                </h6>
             </div>
 
-         </section>
+            <div className="six columns SecondHalf">
+                <div className="row">
+
+                    <div className="OSPcolumn">
+                        <img src="../images/us2.jpg" alt="" id="OSP1"></img>
+                    </div>
+
+                    <div className="OSPcolumn">
+                        <img src="../images/meg.jpg" alt="" id="OSP3"></img>
+                        <img src="../images/us.jpg" alt="" id="OSP5"></img>
+                    </div>
+
+                </div>
+            </div>
+        </section>
       );
-   }
+    }
 }
 
 export default About;
