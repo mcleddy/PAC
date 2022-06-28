@@ -49,13 +49,15 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-   margin: 0;
-   padding: 0;
-   border: 0;
-   outline: 0;
-   font-size: 100%;
-   vertical-align: baseline;
-   background: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font: #5C6B52;
+	font-family: Butler-UltraLight;
 }
 
 article,aside,details,figcaption,figure,
@@ -207,7 +209,7 @@ h5 { font-size: 18px; line-height: 30px; }
 h6 { font-size: 14px; line-height: 30px; }
 
 
-p { margin: 0 0 30px 0; }
+p { margin: 0 0 10px 0; }
 p img { margin: 0; }
 p.lead {
    font: 19px/36px 'opensans-light', sans-serif;
@@ -322,16 +324,17 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 /*  3. Links  ------------------------------------------------------- */
 
 a, a:visited {
-   text-decoration: none;
-   outline: 0;
-   color: #11ABB0;
-
-   -webkit-transition: color .3s ease-in-out;
-   -moz-transition: color .3s ease-in-out;
-   -o-transition: color .3s ease-in-out;
-   transition: color .3s ease-in-out;
+	text-decoration: none;
+	outline: 0;
+	color: #E1B24C;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+	a:hover, a:focus {
+		color: #E1B24C!important;
+	}
 p a, p a:visited { line-height: inherit; }
 
 
@@ -348,7 +351,6 @@ ul ul, ul ol,
 ol ol, ol ul { margin: 6px 0 6px 30px; }
 ul ul li, ul ol li,
 ol ol li, ol ul li { margin-bottom: 6px; }
-li { line-height: 18px; margin-bottom: 12px; }
 
 
 /* ---------------------------------------------------------------------
